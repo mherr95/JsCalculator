@@ -2,3 +2,19 @@ h1 {
     color: grey;
 
 }
+
+p{
+    text-align: right;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5,100px);
+}
+
+#calculator{
+   
+}
